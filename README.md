@@ -30,13 +30,13 @@ Run the development server:
 npm run dev
 ```
 
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
 Launch Inngest CLI
 
 ```bash
 npx inngest-cli@latest dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can see Inngest Dev Server online at [http://localhost:8288](http://localhost:8288) in your browser.
 
