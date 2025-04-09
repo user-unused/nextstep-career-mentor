@@ -8,9 +8,9 @@ export default {
   ],
   theme: {
   	extend: {
-		cursor: {
-			default: 'url(/icons8-cursor-32.png), default',
-		  },
+		// cursor: {
+		// 	default: 'url(/icons8-cursor-32.png), default',
+		//   },
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
