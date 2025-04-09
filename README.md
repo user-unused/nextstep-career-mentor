@@ -3,7 +3,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 ### Make sure to create a `.env` file with following variables -
 
 ```
-DATABASE_URL=
+DATABASE_URL=postgresql://owner:xxxxxxxxxxxxxxxxxxxxxxx.neon.tech/(db_name)?sslmode=require
 
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
 CLERK_SECRET_KEY=
@@ -37,6 +37,8 @@ npx inngest-cli@latest dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can see Inngest Dev Server online at [http://localhost:8288](http://localhost:8288) in your browser.
 
 ## Learn More
 
